@@ -1,2 +1,18 @@
 /.DS_Store
 /.venv
+# Python cache and checkpoints
+__pycache__/
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Model artifacts
+models/
+artifacts/
+*.joblib
+test_metrics.json
+
+# OS files
+.DS_Store
